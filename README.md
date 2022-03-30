@@ -2,7 +2,7 @@
     CalendarListview provides an easy way to select dates from a calendar
 
 ## Screenshot
-<img src="https://gitee.com/HarmonyOS-tpc/CalendarListview/raw/master/CalendarListview.gif" width="40%"/>
+<img src="https://github.com/Vishnuraj0009/CalendarListview/blob/main/CalendarListview.gif" width="40%"/>
 
 ## Dependencies
 ```
