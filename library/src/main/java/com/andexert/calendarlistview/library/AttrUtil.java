@@ -17,6 +17,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 package com.andexert.calendarlistview.library;
 
 import ohos.agp.components.AttrSet;
@@ -24,8 +25,9 @@ import ohos.agp.components.element.Element;
 import ohos.agp.utils.Color;
 
 /**
- * 自定义属性工具类
+ * 自定义属性工具类.
  */
+
 public class AttrUtil {
 
     AttrSet attrSet;
@@ -35,12 +37,13 @@ public class AttrUtil {
     }
 
     /**
-     * 获取自定义String
+     * 获取自定义String.
      *
      * @param key      键值
      * @param defValue 默认值
      * @return 取到的自定义属性，如没有，则返回默认值
      */
+
     public String getStringValue(String key, String defValue) {
         if (attrSet.getAttr(key).isPresent()) {
             return attrSet.getAttr(key).get().getStringValue();
@@ -50,7 +53,7 @@ public class AttrUtil {
     }
 
     /**
-     * 获取自定义Interger
+     * 获取自定义Interger.
      *
      * @param key      键值
      * @param defValue 默认值
@@ -65,7 +68,7 @@ public class AttrUtil {
     }
 
     /**
-     * 获取自定义Boolean
+     * 获取自定义Boolean.
      *
      * @param key      键值
      * @param defValue 默认值
@@ -80,7 +83,7 @@ public class AttrUtil {
     }
 
     /**
-     * 获取自定义Float
+     * 获取自定义Float.
      *
      * @param key      键值
      * @param defValue 默认值
@@ -95,7 +98,7 @@ public class AttrUtil {
     }
 
     /**
-     * 获取自定义Long
+     * 获取自定义Long.
      *
      * @param key      键值
      * @param defValue 默认值
@@ -110,7 +113,7 @@ public class AttrUtil {
     }
 
     /**
-     * 获取自定义Element
+     * 获取自定义Element.
      *
      * @param key      键值
      * @param defValue 默认值
@@ -125,7 +128,7 @@ public class AttrUtil {
     }
 
     /**
-     * 获取自定义Dimension
+     * 获取自定义Dimension.
      *
      * @param key      键值
      * @param defValue 默认值
@@ -140,7 +143,7 @@ public class AttrUtil {
     }
 
     /**
-     * 获取自定义Color,默认值为Color类型
+     * 获取自定义Color,默认值为Color类型.
      *
      * @param key      键值
      * @param defValue 默认值
@@ -155,7 +158,7 @@ public class AttrUtil {
     }
 
     /**
-     * 获取自定义，默认值为int类型
+     * 获取自定义，默认值为int类型.
      *
      * @param key      键值
      * @param defValue 默认值

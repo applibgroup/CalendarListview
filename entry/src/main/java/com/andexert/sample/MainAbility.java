@@ -17,13 +17,13 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 package com.andexert.sample;
 
 import com.andexert.calendarlistview.library.DatePickerController;
 import com.andexert.calendarlistview.library.DayPickerView;
 import com.andexert.calendarlistview.library.ResourceTable;
 import com.andexert.calendarlistview.library.SimpleMonthAdapter;
-
 import ohos.aafwk.ability.Ability;
 import ohos.aafwk.content.Intent;
 

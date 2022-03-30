@@ -17,11 +17,15 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  ***********************************************************************************/
+
 package com.andexert.calendarlistview.library;
 
 import java.util.Calendar;
 
 public class CalendarUtils {
+    private CalendarUtils() {
+        throw new IllegalStateException("Calendar Utility class");
+    }
     public static int getDaysInMonth(int month, int year) {
         switch (month) {
             case Calendar.JANUARY:

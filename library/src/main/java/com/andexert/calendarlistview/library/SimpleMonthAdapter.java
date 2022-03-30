@@ -275,6 +275,7 @@ public class SimpleMonthAdapter extends BaseItemProvider implements SimpleMonthV
         return selectedDays;
     }
 
+
     public static class SelectedDays<K> implements Serializable {
         private static final long serialVersionUID = 3942549765282708376L;
         private K first;
