@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andexert.calendarlistview.library.DayPickerView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:pickerView"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:drawRoundRec="true"/>

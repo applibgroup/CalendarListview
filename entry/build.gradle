@@ -1,0 +1,25 @@
+apply plugin: 'com.huawei.ohos.hap'
+apply plugin: 'com.huawei.ohos.decctest'
+ohos {
+    compileSdkVersion 6
+    defaultConfig {
+        compatibleSdkVersion 5
+    }
+    buildTypes {
+        release {
+            proguardOpt {
+                proguardEnabled false
+                rulesFiles 'proguard-rules.pro'
+            }
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+    implementation project(':library')
+}
+decc {
+    supportType = ['html', 'xml']
+}
